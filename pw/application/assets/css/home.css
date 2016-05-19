@@ -1,0 +1,287 @@
+body{
+    text-align: center;
+    background: #272125;
+    font-family: 'Roboto', sans-serif;
+}
+
+#titleBanner{
+    background-color: #cc5200;
+    height: 50px;
+    font-size: 40px;
+}
+#tagLine{
+    font-size: 18px;
+}
+
+#mainArea{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+    border: 4px solid grey;
+    border-radius: 20px;
+    position: fixed;
+    top: 40%;
+    right: 25%;
+    left: 25%;
+    margin-top: -50px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #cc5200;
+    margin-left:12px;
+}
+
+#searchForm {
+    position:relative;
+    margin: 130px auto;
+    margin-bottom: 0px;
+    width: 580px;
+    height: auto;
+}
+
+.search {
+    padding: 16px;
+    border-radius:7px;
+    border:0px;
+    background: rgba(255,255,255,.2);
+    display: block;
+    margin: 15px;
+    width: 450px;
+    color:white;
+    font-size:18px;
+    height: 54px;
+   
+}
+
+.search:focus {
+    outline-color: rgba(0,0,0,0);
+    background: rgba(255,255,255,.95);
+    color: #e74c3c;
+}
+
+
+button {
+    float:right;
+    height: 54px;
+    width: 100px;
+    border: 0px;
+    background: #cc5200;
+    border-radius:7px;
+    padding: 10px;
+    color:white;
+    font-size:22px;
+    cursor: pointer;
+    
+    
+}
+
+button:hover{
+    background-color: rgba(255,255,255,.2);
+}
+
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #e74c3c;
+}
+
+#searchInDiv{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#searchInDiv fieldset{
+        border-radius: 8px;
+}
+
+
+.prodDisplay{
+	float:left;
+	
+    text-align:center;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin:20px;
+    min-height: 20px;
+    padding: 19px;
+    height: 250px;
+    width: 250px;
+}
+
+.prodImage {
+	background:white;
+    border: 1px solid #ccc;
+    height: 150px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 150px;
+    cursor:pointer;
+    
+}
+
+
+
+.prodTitle {
+	height: 52px;
+    overflow: hidden;
+}
+
+.prodPrice{
+	margin-top: 5px;
+}
+
+
+#displayPane{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.prodId{
+	display:none;
+}
+
+.selectedItems{
+	position: relative !important;
+    	left: 56px !important;
+    	top: -120px !important;
+}
+
+#resultsDiv{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.siteLogo{
+    height: 15px;
+    position: relative;
+    top: -255px;
+    left: -100px;
+}
+
+.productDiv{
+    text-align: center;
+    width:300px;
+    padding: 19px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 20px;
+    float:left;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+#navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cc5200;
+    border-radius: 7px;
+    border: 0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navul li {
+    float: left;
+}
+
+#navul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 7px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border: 0px
+}
+
+#navul li a:hover {
+    background-color: rgba(255,255,255,.2);
+    
+}
+
+#PWtitle{
+    text-align: center;
+    padding:10px;
+    height:60px;
+    background-color: #D95700;
+    border-radius: 7px;
+    margin-right:10px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border: 0px
+}
+#navBar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999999999;
+    opacity:.97;
+}
+#PWname{
+    font-size:40px;
+    color:white;
+}
+
+#loginDiv{
+    float:right;
+    }
+    
+.comparisonTD{
+    max-width:308px;
+}
+
+.addedToComparison{
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px -2px 6px #823501;
+}
+
+.login{
+    
+}
+
+
+#compareProductsButton{
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 15px;
+    display:none;
+}
+
+#comparisonDiv{
+    position: relative;
+    top: -196px;
+    width: 100%;
+    background-color: #33312F;
+    padding: 20px;
+    border: 0px;
+    border-radius: 7px;
+    height:100%;
+}

@@ -1,0 +1,36 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   Final report.pdf
+#	new file:   PriceWise ppt.pptx
+#	new file:   Project Design Plan.xlsx
+#	new file:   README.md
+#	new file:   Retrospective.pdf
+#	new file:   chrome 1.png
+#	new file:   chrome 2.png
+#	new file:   chrome 3.png
+#	new file:   chrome 4.png
+#	new file:   chrome 5.png
+#	new file:   chrome reg.png
+#	new file:   db tables.jpg
+#	new file:   ie 1.png
+#	new file:   ie 2.png
+#	new file:   ie 3.png
+#	new file:   ie 4.png
+#	new file:   moz 1.png
+#	new file:   moz 2.png
+#	new file:   moz 3.png
+#	new file:   moz 4.png
+#	new file:   ocEWxmvc.png
+#	new file:   pw
+#	new file:   readMe.txt
+#
+# Changes not staged for commit:
+#	modified:   pw (modified content, untracked content)
+#
+
